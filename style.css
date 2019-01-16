@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.left_side{
+    width: 25%;
+    float: left;
+    background-color: lightgray;
+    position: fixed;
+    height: 666px;
+    margin-top: 30px;
+}
+.nav_section{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(243, 241, 241);
+    border: 2px solid rgb(243, 241, 241);
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.fixed_header{
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    height: 30px;
+    position: fixed;
+}
+.btn-group button{
+    background-color: #4CAF50;
+    border: 1px solid green;
+    border-left: none;
+    border-right: none;
+    color: white;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    width: 100%; 
+    display: block; 
+}
+.btn-group button:not(:last-child) {
+    border-bottom: none; 
+}
+
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+.right_side{
+    margin-top: 30px;
+    width: 75%;
+    height: 1070px;
+    background-color: darkkhaki;
+    float: right;
+    
+}
+.myImage{
+    background-image: url("‪+256\ 700\ 233677‬\ 20181215_170200.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 3px #bbbb;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.myName{
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.myImageLine{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    background-image: url("type_5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.sub_right_side{
+    /*margin-top: 30px;*/
+    /*margin-bottom: 35px;*/
+}
+.portfolio{
+    background-color: lightgray;
+    height: 120px;
+}
+.welcome_info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.top_buttons{
+    float: right;
+    margin-right: 45px;
+    margin-top: 6px;
+    margin-bottom:5px;
+}
+.btn_top{
+    background-color: #4CAF50;
+    border: 1px solid green;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    margin-right:5px;   
+}
+.btn_top:hover {
+    background-color: #3e8e41;
+}
+.myPortfolio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 45px;
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #4CAF50;
+    background-image: -webkit-linear-gradient(left, #ccc, #4CAF50, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #4CAF50, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #4CAF50, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #4CAF50, #ccc); 
+}
+hr.style-welcome {
+    border: 0;
+    height: 1px;
+    background: #4CAF50;
+    background-image: -webkit-linear-gradient(left, #ccc, white, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, white, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, white, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, white, #ccc); 
+}
+.line_portfolio{
+    height: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #3e8e41;
+    margin-top:15px;
+}
+.about_me{
+    background-image: url("macjoelpc.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.about_me2{
+    background-color: rgba(51, 50, 50, 0.521);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.intro_hello{
+    color: black;
+    font-size: 30px;
+    line-height: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 3px;
+}
+.about_me_info{
+    margin-left: 400px;
+    margin-right: 45px;
+}
+.intro_am{
+    color: white;
+    font-size: 45px;
+    margin-left: 10px;
+}
+.intro_word{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+hr.style-about-me {
+    border: 0;
+    height: 1px;
+    background: #4CAF50;
+    background-image: -webkit-linear-gradient(left, rgba(66, 65, 65, 0.404), white, rgba(66, 65, 65, 0.404)); 
+    background-image:    -moz-linear-gradient(left, rgba(66, 65, 65, 0.404), white, rgba(66, 65, 65, 0.404)); 
+    background-image:     -ms-linear-gradient(left, rgba(66, 65, 65, 0.404), white, rgba(66, 65, 65, 0.404)); 
+    background-image:      -o-linear-gradient(left, rgba(66, 65, 65, 0.404), white, rgba(66, 65, 65, 0.404)); 
+}
+.data{
+    color: white;
+    font-size: 18px;
+}
+.data_info_date{
+    color: white;
+    font-size: 18px;
+    margin-left: 67px;
+}
+.data_info_address{
+    color: white;
+    font-size: 18px;
+    margin-left: 37px;   
+}
+.data_info_website{
+    color: white;
+    font-size: 18px;
+    margin-left: 37px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.data_info{
+    color: white;
+    font-size: 18px;
+    margin-left: 55px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.experience{
+    background-color: aquamarine;
+    height: 200px;
+}
+.skills{
+    background-color: lightgray;
+    height: 500px;
+}
+.skill_titles{
+    margin-left: 45px;
+    color: #000;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Skills Bar*/
+.we_dgn1{
+    background-color: gray;
+    height: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 50px;
+}
+.we_dgn2{
+    background-color: rgb(64, 70, 70);
+    height: 40px;
+    padding: 1px;
+    height: 38px;
+    margin-right: 190px;
+    border-radius: 50px;
+}
+.num{
+    color: white;
+    float: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.Photography1{
+    background-color: gray;
+    height: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 50px;
+}
+.Photography2{
+    background-color: rgb(64, 70, 70);
+    height: 40px;
+    padding: 1px;
+    height: 38px;
+    margin-right: 260px;
+    border-radius: 50px;
+}
+.Photoshop1{
+    background-color: gray;
+    height: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 50px;
+}
+.Photoshop2{
+    background-color: rgb(64, 70, 70);
+    height: 40px;
+    padding: 1px;
+    height: 38px;
+    margin-right: 310px;
+    border-radius: 50px;
+}
+.Media1{
+    background-color: gray;
+    height: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 50px;
+}
+.Media2{
+    background-color: rgb(64, 70, 70);
+    height: 40px;
+    padding: 1px;
+    height: 38px;
+    margin-right: 450px;
+    border-radius: 50px;
+}
+/*Skills Bar Ends*/
+/*contact_me*/
+.contact_me{
+    background-color: lightgray;
+    height: 400px;
+}
+.contact_info{
+    margin-left: 45px;
+    margin-right: 55px;
+    /*background-color: yellow;*/
+}
+.contact_labels{
+    font-size: 25px;
+}
+.contact_input{
+    width: 100%;
+    border-radius: 3px;
+    float: left;
+    margin-top: 10px;
+    height: 35px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+    line-height: 5px;
+    font-size: 20px;
+    margin-right: 45px;
+}
+.contact_input_message{
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.send_message_btn{
+    color: white;
+    border: none;
+    margin-top: 10px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/*contact_me end*/
+/*footer section*/
+.footer{
+    background-color: lightgray;
+    height: 100px;
+}
+.footer_info{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer_info2{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
